@@ -6,7 +6,7 @@ import argparse
 import math
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--videoFolder', type=str, default=r"D:\Ali Waqas\Projects\Drone\backup_laptop\anafi_backup\errors",
+parser.add_argument('--videoFolder', type=str, default=r"./",
                     help='full path of path of folder containing videos')
 parser.add_argument('--outFolder', type=str, default="", help='output folder to store images')
 parser.add_argument('--fps', type=int, default=0, help='frames to output per second.')

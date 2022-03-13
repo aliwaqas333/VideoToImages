@@ -8,7 +8,7 @@ def read(rel_path):
 
 setuptools.setup(
     name="videoToImages",
-    version="1.1.2",
+    version="2.1.1",
     author="Ali Waqas",
     author_email="engrr.ali.waqas@gmail.com",
     description="A easy to use, video to images converter",
